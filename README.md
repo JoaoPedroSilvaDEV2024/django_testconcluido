@@ -32,3 +32,10 @@ Projeto desenvolvido como parte de um **desafio técnico**, com foco em boas pr�
 ```bash
 git clone https://github.com/seuusuario/nome-do-repositorio.git
 cd nome-do-repositorio
+```
+### 2️⃣ Criar e ativar o ambiente virtual
+```bash
+python -m venv venv
+```
+
+
