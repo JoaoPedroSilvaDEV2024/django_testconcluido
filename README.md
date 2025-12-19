@@ -37,5 +37,17 @@ cd nome-do-repositorio
 ```bash
 python -m venv venv
 ```
+### 3️⃣ Instalar dependências
+```bash
+pip install -r requirements.txt
+```
+### 4️⃣ Rodar migrações
+```bash
+python manage.py migrate
+```
+### 5️⃣ Iniciar o servidor
+```bash
+python manage.py runserver
+```
 
 
