@@ -1,0 +1,12 @@
+<h1>Students & Courses</h1>
+
+{% for student in students %}
+  <h3>{{ student }}</h3>
+  <ul>
+    {% for e in student.enrollments.all %}
+      <li>{{ e.course.name }} ({{ e.status }})</li>
+    {% empty %}
+      <li>No courses</li>
+    {% endfor %}
+  </ul>
+{% endfor %}
