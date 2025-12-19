@@ -37,6 +37,14 @@ cd nome-do-repositorio
 ```bash
 python -m venv venv
 ```
+### Windows:
+```bash
+venv\Scripts\activate
+```
+### Linux / macOS:
+```bash
+source venv/bin/activate
+```
 ### 3️⃣ Instalar dependências
 ```bash
 pip install -r requirements.txt
